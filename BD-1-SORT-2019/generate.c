@@ -23,11 +23,11 @@ uint32_t uniform_uint32(uint32_t min, uint32_t max);
 
 void usage (char * s, uint32_t umax) /* s is the program name */
 {
-fprintf(stderr, "%s [-s size] [-B] [-r max]\n", s);
-fprintf(stderr, "\t_size_ is the number of items to generate\n");
-fprintf(stderr, "\t_size_ is given as a number, eventually followed by a multiplier (k,M,G)\n");
-fprintf(stderr, "\tif -B is given the output is binary, otherwise ASCII\n");
-fprintf(stderr, "\tnumber are in [0..max], default max is %"PRIu32"\n", umax);
+  fprintf(stderr, "%s [-s size] [-B] [-r max]\n", s);
+  fprintf(stderr, "\t_size_ is the number of items to generate\n");
+  fprintf(stderr, "\t_size_ is given as a number, eventually followed by a multiplier (k,M,G)\n");
+  fprintf(stderr, "\tif -B is given the output is binary, otherwise ASCII\n");
+  fprintf(stderr, "\tnumber are in [0..max], default max is %"PRIu32"\n", umax);
 } /* usage */
 
 #define handle_error(msg) \

@@ -1,0 +1,52 @@
+# JOURNAL BIG DATA Julien Pelegri
+
+Link of the Github repo to track my work : https://github.com/glaiveVII/bigdata
+
+------ 11/03 --------
+
+mmap : ecrire directement sur la memoire disque
+
+## But TP
+On veut creer une fonction mmap qui va modifier -> le tableau de chiffre generer par generate.c qu'on va ecrire dans la memoire avec mmap et ensuite trier
+
+## Je me rehabitu au C petit à petit
+
+How to run C program : attention pas oublier de recompiler à chaque fois on est pas en python....
+
+```
+gcc -Wall -o nom_executable file.c
+# rappel on est pas en python il faut deja compiler puis executer
+./nom_executable option1 option2 new_name(input)
+```
+
+Commandes type pour run mon programme :
+```
+gcc -Wall -o tri main.c
+./tri -s 1k -B nom_fichier
+```
+
+
+# Je realise mon programme dans main.c
+
+## Structure de mon programme :
+
+  1/ lire un ficher en commande : done
+  2/ recuperer les -s et -B entré en commande : done
+
+  - Avant de continuer il faut que je comprennes comment mmap fonctionne et comment l'implémenter
+
+  - regarder comment on utilise la function qsort
+
+  Fragmentation des step :
+  --> on ouvre le fichier avec open (on commence avec un fichier non binaire pour simplifier : ./generate > foo.txt)
+  --> puis on lit la taille du fichier avec fstat
+  --> il faut map le file dans la memory avec mmap
+  --> le trier
+  --> re-sync le fichier
+
+  3/ lire le fichier et itérer dessus pour utiliser mmap pour ecrire en dur chaque element du fichier
+  4/ trier
+  5/ reecrire le fichier tirer dans un nouveau fichier
+
+
+

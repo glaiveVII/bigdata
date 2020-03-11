@@ -1,3 +1,8 @@
+
+# JOURNAL BIG DATA
+
+------ 11/03 -------------
+
 ## Details command :
 
 Unzip a .tgz file :
@@ -60,7 +65,32 @@ genere 50 element compris entre 0 et 100
 rq : on a un generateur pseudo aléatoire : on genere tjrs la meme sequence, sinon il faudrait initialiser le generateur aleatoire
 
 
+but mmap : ecrire directement sur la memoire disque
 
+## But TP
+On veut creer une fonction mmap qui va modifier (assez rare et plus complexe pour optimiser le tri) le tableau de chiffre generer par generate.c qu'on va ecrire dans la memoire avec mmap et ensuite trier
+
+Get help on a unix fct :
+```
+man 2 mmap
+```
+
+How to run C program :
+
+
+```
+gcc -Wall -o nom_executable file.c
+# rappel on est pas en python il faut deja compiler puis executer
+./nom_executable new_name
+```
+
+# File sort.c :
+## Structure de mon programme :
+
+  1/ lire un ficher
+  2/ lire le fichier et itérer dessus pour utiliser mmap pour ecrire en dur chaque element du fichier
+  3/ trier
+  4/ reecrire le fichier tirer dans un nouveau fichier
 
 
 
