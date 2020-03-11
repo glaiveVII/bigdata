@@ -40,6 +40,10 @@ fprintf(stderr, "\tnumber are in [0..max], default max is %"PRIu32"\n", umax);
  * in a graph from nodes represented by these integers.
  */
 
+
+/************************* Partie essentielle du tri *******************************/
+
+
 struct item { uint32_t u[2]; };
 
 void item_print (struct item * v) /* ASCII output */
@@ -98,7 +102,7 @@ int opt_B = 0; /* 0 for ASCII output, 1 for binary output */
   while (opt_s--)
     {
     struct item u;
-    
+
     u.u[0] = uniform_uint32(umin, umax);
     u.u[1] = uniform_uint32(umin, umax);
     if (opt_B) item_write(&u); else { item_print(&u); putchar('\n'); }
