@@ -1,0 +1,34 @@
+
+
+En shell, il est possible de rechercher (et de trouver !) des fichiers
+selon différents critères.
+
+C'est le rôle de la commande 'find' qui, pour un répertoire donné,
+recherche tous les fichiers et/ou répertoires correspondant à certains
+critères dans ce répertoire et tous les sous-répertoires.
+
+Sa syntaxe est compliquée, mais il est possible de faire rapidement
+des recherches quand on comprend l'idée.
+
+Rechercher, dans le répertoire '/etc', tous les fichiers ou répertoires
+dont le nom contient le caractère '_' :
+$> find /etc -name '*_*'
+
+Rechercher, depuis le répertoire courant, tous les fichiers dont le
+nom se termine par '.txt' :
+$> find . -type f -name '*.txt'
+
+Rechercher, depuis le répertoire courant, tous les fichiers dont le nom
+se termine par '.txt' ou par '.moi' :
+$> find . -type f -name '*.txt' -o -name '*.moi'
+
+Afficher le nom de tous les répertoires à partir du répertoire
+courant :
+$> find . -type d
+
+
+Il existe bien d'autres critères que le nom ou le type des
+fichiers. Reportez-vous à la page de manuel de 'find(1)' pour en
+savoir plus.
+
+

@@ -1,0 +1,14 @@
+
+
+Il est possible d'obtenir plus d'informations sur les fichiers et
+répertoires à l'aide de la commande 'ls'. Son option '-l' donne un
+affichage détaillé dans lequel on voit, entre autre, la taille des
+fichiers en octets ainsi que leur date de création.
+
+Revisitez quelques salles pour voir les informations détaillées de
+chaque fichiers et répertoires qui s'y trouvent.
+
+Bien entendu, il est possible de combiner les options d'une même
+commande ...
+
+

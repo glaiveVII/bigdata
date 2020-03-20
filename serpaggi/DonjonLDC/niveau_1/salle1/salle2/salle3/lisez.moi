@@ -1,0 +1,12 @@
+
+
+Pour lire un texte qui est très long, la commande 'cat' n'est pas
+très adaptée.
+
+On préfère utiliser une commande permettant de se déplacer dans le
+texte avec les flèches du clavier et permettant également de rechercher
+des mots dans ce texte.
+
+La commande 'less' est faite pour ça. Elle dispose d'une aide accessible
+en appuyant sur 'h' lorsqu'on lit un texte avec cette commande.
+

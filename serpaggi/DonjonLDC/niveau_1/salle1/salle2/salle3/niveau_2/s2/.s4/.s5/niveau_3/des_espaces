@@ -1,0 +1,16 @@
+
+
+Il est possible d'utiliser le caractère ' ' dans les noms de fichiers
+et de répertoires, même si c'est une pratique découragée (cela pose
+de nombreux problèmes avec les commandes, les scripts, ...)
+
+Pour cela, il suffit, soit d'inclure tout le nom entre guillemets,
+soit de protéger les espaces avec le caractère d'échapement '\'.
+
+Par exemple, on peut se déplacer dans le répertoire "salle 1" à l'aide
+de l'une des deux commandes suivantes :
+
+. cd "salle 1"
+. cd salle\ 1
+
+

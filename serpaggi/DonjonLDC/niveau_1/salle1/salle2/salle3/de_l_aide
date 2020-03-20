@@ -1,0 +1,15 @@
+
+Toutes les commandes usuelles sont documentées.
+
+Soit elles possèdent une aide en ligne (souvent accessible avec l'option
+-h ou l'option --help), soit elles possèdent une page de manuel.
+
+Les pages de manuel sont organisées en sections. La plupart des
+commandes vues ici sont dans la section 1.
+
+Pour accéder au manuel d'une commande il suffit d'utiliser la commande
+'man'.
+
+Fait amusant, cette commande 'man' possède elle-même une page de
+manuel !
+

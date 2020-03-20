@@ -1,0 +1,18 @@
+
+
+Vous allez créer plusieurs processus gourmand en CPU qui vont s'exécuter simultanément sur votre ordinateur. Pour cela, il vous faut plusieurs fenêtres de terminal.
+
+. Ouvrez trois nouvelles fenêtres de terminal
+. Dans la première, lancez 'top'
+. Dans la deuxième, copiez et exécutez le petit script suivant (les
+  espaces sont importants !) :
+  $> while [ 1 ]; do :; done
+. Observez les modifications d'affichage dans 'top'
+. Dans la troisième fenêtre, lancez à nouveau ce même petit script
+. Qu'affiche 'top' à présent ? Est-ce que le pourcentage total de
+  CPU utilisé est cohérent ?
+
+Il faudrait à présent arrêter ces processus gourmands...
+Rendez-vous dans la salle suivante pour en apprendre plus.
+
+

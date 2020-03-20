@@ -1,0 +1,14 @@
+
+
+Vous touchez au but !
+
+Vous devez faire apparaître le dernier répertoire de cette salle pour
+le retrouver plus facilement la prochaine fois.
+
+Il serait également intéressant de faire apparaître le répertoire
+de cette salle dans la précédente.
+
+La commande 'mv' pourra être utile. Mais attention, elle fait tout ce
+que vous lui demander sans jamais se poser de questions !
+
+

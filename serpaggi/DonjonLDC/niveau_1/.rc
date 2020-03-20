@@ -1,0 +1,23 @@
+# Ce fichier est caché par défaut.
+# Il permet de modifier le comportement par
+# défaut de certaines commandes.
+# Pour que cela prenne effet, il faut le 'sourcer'
+# dans le shell, comme suit :
+# $> source .rc
+
+# ls affiche maintenant en couleurs et avec des
+# informations permettant de connaître rapidement
+# le type de ce qui est listé
+alias ls="ls --color -F"
+
+# si en entrant dans un répertoire on trouve un
+# fichier .readme, on l'affiche !
+function cd() {
+	builtin cd "$1"
+	[ -f .readme ] && cat .readme
+}
+
+# permet d'avoir la liste des dernières commandes
+# entrées avec un horodatage
+alias ht='HISTTIMEFORMAT="%d/%m/%Y %T " history'
+

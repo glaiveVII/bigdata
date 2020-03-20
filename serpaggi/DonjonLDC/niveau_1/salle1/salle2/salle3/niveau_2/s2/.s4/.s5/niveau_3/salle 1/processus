@@ -1,0 +1,28 @@
+
+
+À chaque fois que vous lancez un programme, via la ligne de commande
+ou via l'interface graphique, un processus est créé par le système.
+
+Ce processus, qui est lié à un utilisateur, consomme des ressources
+systèmes : du CPU et de la mémoire.
+
+Il est donc possible de surveiller les processus en cours d'exécution
+sur un système Unix et pour cela, il existe deux commandes :
+
+ * top - qui est interactive et qui affiche la liste des processus les
+         plus gourmands du système, en plus de quelques informations
+		 générales
+
+ * ps  - qui liste les processus actifs à un moment donné et qui admet
+         de nombreuses options pour obtenir des affichages plus
+		 détaillés
+
+Utilisez 'top' pour voir l'activité de votre système ('q' pour quitter).
+Quelle est la quantité de mémoire dont dispose votre ordinateur ? De
+combien de "CPU" dispose-t-il ?
+
+Listez les processus en cours, tout d'abord avec 'ps', puis avec
+'ps -u <user> u' (en remplaçant <user> par votre nom d'utilisateur),
+puis enfin avec 'ps -efal'.
+
+

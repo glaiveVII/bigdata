@@ -1,0 +1,19 @@
+
+
+Vous connaissez donc à présent les commandes suivantes :
+
+ * ls - pour afficher le contenu du répertoire courant
+ * cat fichier - pour afficher le contenu de 'fichier'
+ * cd répretoire - pour se déplacer dans 'répertoire'
+ * cd .. - pour remonter d'un étage dans l'arborescence des fichiers
+ * pwd - pour connaître le chemin absolu du répertoire courant
+ * file fichier - pour avoir des infos sur 'fichier'
+ * man commande - pour afficher la page de manuel de 'commande'
+ * less fichier - pour afficher le contenu de 'fichier' et s'y déplacer
+
+Dans ce niveau vous appendrez à utiliser ces commandes plus en détail.
+
+Mais au fait, savez-vous quelles sont les commandes que vous avez tapées
+jusqu'à présent ? La commande 'history' doit pouvoir vous renseigner !
+
+

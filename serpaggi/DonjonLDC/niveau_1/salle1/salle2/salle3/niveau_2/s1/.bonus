@@ -1,0 +1,20 @@
+# Ce fichier permet de modifier le comportement
+# par défaut de la commande cd.
+# Pour l'utiliser, il faut le "sourcer" dans le
+# shell en procédant comme suit :
+# $> source .bonus
+
+unset cd
+function cd() {
+	if [ -z "$1" ]
+	then
+		builtin cd
+	else
+		builtin cd "$1"
+	fi
+	[ -f .readme ] && cat .readme
+	
+	echo "Vous entrez dans le répertoire" $(basename "$PWD")
+	echo "Voici ce qu'il contient :"
+	ls -Al | tail -n+2
+}

@@ -1,0 +1,14 @@
+
+La commande 'cd' permet d'aller d'un répertoire à un autre en lui
+passant en argument le nom du répertoire où l'on veut se rendre.
+Elle permet donc de se déplacer dans l'arborescence des fichiers.
+
+On peut facilement descendre dans cette arborescence (de la racine vers
+mes feuilles), mais comment remonter ?
+
+Il est bien entendu possible de donner le chemin absolu du répertoire
+parent, mais cela peut s'avérer long !
+C'est pourquoi on préfère utiliser le répertoire spécial '..' qui
+existe partout et qui désigne toujours le répertoire parent du
+répertoire courant.
+

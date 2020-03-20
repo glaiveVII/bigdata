@@ -1,0 +1,14 @@
+
+
+La plupart des commandes sont des commandes du système, c'est à dire
+que ce sont des programmes séparés que l'interprète de commandes (ici
+le shell Bash) va exécuter à notre demande. Vous pouvez vous-même
+écrire de telles commandes.
+
+Certaines commandes cependant sont internes au shell, ce sont les
+"builtins" et vous en avez utilisé une sans même le savoir : 'cd'.
+
+Ces commandes internes ont une page de manuel qui leur sont réservées :
+'builtins(7)'.
+
+

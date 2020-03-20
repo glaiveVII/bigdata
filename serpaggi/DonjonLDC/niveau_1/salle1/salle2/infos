@@ -1,0 +1,27 @@
+
+
+Les fichiers peuvent être encodés de différentes manières.
+Le codage historique pour les fichiers ne contenant que du texte est
+l'ASCII, codé sur 7 bits.
+
+Avec ça on peut représenter les lettres de l'alphabet en majuscule et
+en minuscule, les chiffres, les signes de ponctuation et les symboles
+mathématiques. Par contre on ne peut pas représenter les caractères
+accentués.
+
+L'ASCII a été étendu sur 8 bits pour pouvoir prendre en charge des
+caractères ... étendus et, entre autre, les caractères accentués.
+Cependant, 8 bits (256 valeurs) ne sont pas suffisants pour encoder tous
+les caractères que l'on trouve dans les langues du monde entier.
+D'autres encodages ont alors vu le jour. L'un d'entre eux est l'UTF-8. Il
+est partiellement compatible avec l'ASCII et permet de représenter
+beaucoup plus de caractères.
+
+Il existe une commande pour avoir des informations sur un fichier et
+entre autre, son encodage si c'est un fichier texte.
+Cette commande c'est 'file'.
+Il suffit de lui passer le nom d'un ou plusieurs fichiers en argument.
+
+Obtient les informations sur ce fichier et sur le fichier de la salle
+précédente.
+

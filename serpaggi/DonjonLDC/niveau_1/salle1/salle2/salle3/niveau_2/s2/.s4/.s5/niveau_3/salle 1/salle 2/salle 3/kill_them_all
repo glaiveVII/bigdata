@@ -1,0 +1,35 @@
+
+
+Pour arrêter un processus en cours de fonctionnement il existe plusieurs méthodes. La première est bien entendu de "fermer" correctement le processus. Mais ce n'est pas toujours possible. Il faut donc recourir à d'autres moyens plus expéditifs.
+
+La méthode est d'envoyer un signal au processus en question. Mais comment le désigner ?
+
+À chaque processus est affecté un identifiant (le "Process ID", ou PID)
+et les commandes 'ps' et 'top' nous donnent cette information.
+
+Chaque processus réagit à des signaux qu'on peut lui envoyer (voir la
+page de manuel de signal.7). Il existe des signaux courtois et d'autres
+plus expéditifs.
+
+La commande 'kill' permet d'envoyer des signaux à un processus :
+
+$> kill [signal] <pid>
+
+Si 'signal' est omis, c'est SIGTERM (15) qui est envoyé par
+défaut. C'est un signal courtois qui demande au processus de s'arrêter.
+
+Mais parfois le processus est dans un tel état qu'il ne peut même
+pas réagir à SIGTERM. Il faut lui envoyer un signal plus direct :
+SIGKILL (9) qui tue le processus (c'est ce qui est fait quand on utilise
+le raccourci clavier [Ctrl-C]).
+
+Certains processus, une fois tués, restent néanmoins présents. Il
+sont qualifiés de processus zombis. Il ne peuvent plus être tués et
+il faut attendre qu'ils disparaissent, soit parce que le système arrive
+à s'en débarrasser, soit parce qu'on redémarre l'ordinateur.
+
+Mettez fin aux processus gourmands que vous avez créé précédemment
+en essayant d'envoyer SIGTERM, SIGKILL, [Ctrl-C]. Est-ce vraiment
+équivalent ?
+
+

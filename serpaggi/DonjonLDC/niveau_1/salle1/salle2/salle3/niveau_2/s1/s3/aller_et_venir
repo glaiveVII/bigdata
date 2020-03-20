@@ -1,0 +1,8 @@
+
+
+Il est possible de revenir dans le répertoire où on était avant
+le dernier appel à la commande 'cd'. Il suffit pour cela de passer
+l'argument '-' à la commande 'cd' : 'cd -' va donc vous renvoyer dans
+le dossier où vous vous trouviez précédemment.
+
+

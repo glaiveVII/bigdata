@@ -1,0 +1,9 @@
+
+On peut savoir où l'on se trouve en utilisant la commande 'pwd'.
+Elle donne un chemin absolu de sa position dans l'arborescence
+des fichiers. C'est à dire un chemin qui part de la racine de
+cette arborescence.
+
+Quel est donc le chemin absolu pour aboutir à ce répertoire ?
+
+La suite dans la salle 2.

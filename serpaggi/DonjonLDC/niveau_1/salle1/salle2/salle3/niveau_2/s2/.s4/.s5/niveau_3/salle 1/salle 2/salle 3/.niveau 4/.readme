@@ -1,0 +1,28 @@
+
+
+En entrant dans cette salle une intense lumière vous aveugle : vous
+avez trouvé la sortie, vous refaites enfin surface !
+
+Votre progression dans ce petit labyrinthe se termine et vous y avez
+appris beaucoup de choses. Vous savez à présent :
+
+* vous repérer et vous déplacer dans un système de fichiers ('pwd',
+  'cd', 'ls')
+* lire un fichier ('cat', 'less')
+* obtenir des information sur les fichiers et les répertoires ('file',
+  'ls')
+* déplacer/renomer un fichier ou un répertoire ('mv')
+* obtenir de la documentation sur les commandes ('man')
+* retrouver la liste des commandes que vous avez tapé dans le passé
+  ('history')
+* copier des fichiers ('cp')
+* supprimer des fichiers ('rm')
+* créer des répertoires ('mkdir')
+* supprimer des répertoires ('rmdir')
+* gérer les processus en cours d'exécution sur votre système ('ps',
+  'top', 'kill')
+
+Il vous reste à présent à décrouvrir toutes les autres commandes
+qui vont vous permettre de traiter effectivement des données !
+
+

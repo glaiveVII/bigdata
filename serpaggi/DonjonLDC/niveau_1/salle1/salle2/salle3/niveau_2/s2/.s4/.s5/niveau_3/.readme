@@ -1,0 +1,16 @@
+
+
+Vous entrez au niveau 3 ...
+
+Vous apprenez qu'il existe d'autres commandes de manipulation de fichiers
+et de répertoires :
+
+* cp - pour copier des fichiers
+* mkdir - pour créer des répertoires
+* rm - pour supprimer des fichiers
+* rmdir - pour supprimer des répertoires
+
+Toutes ces commandes ont des pages de manuel dans la section 1 auxquelles
+vous pouvez vous reporter.
+
+
