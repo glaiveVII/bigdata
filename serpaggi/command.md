@@ -47,10 +47,48 @@ all running process
 $> ps ax
 ```
 
-info of all running process
+info of all important running process
 ```
 $> top
 ```
+
+trouver doc dans un fichier utiliser la commande 'find' et 'find(1)' pour de la doc
+
+
+info of all running process
+```
+$> ps
+```
+afficher le contenu du fichier
+```
+$> cat <file>
+```
+
+savoir le type du fichier
+```
+$> file <file>
+```
+
+acceder au manuel d'une commande
+```
+$> man command
+```
+
+equivalent de cat pour les fichiers longs
+```
+$> less <file>
+```
+
+avoir plus d'info sur les fichiers du repertoire
+```
+$> ls -l
+```
+
+```
+$> rm - pour supprimer des fichiers
+$> rmdir - pour supprimer des répertoires
+```
+
 
 kill process by giving the id
 ```
