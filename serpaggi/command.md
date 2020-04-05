@@ -100,3 +100,81 @@ Command annexe :
 !! : execute la derniere commande
 
 ```
+
+Copy element :
+```
+$> cp file path_to_dir
+```
+
+```
+find [options] [répertoires] [critère] [action]
+```
+
+```
+ ps - Afficher l'état des processus en cours.
+```
+
+unzip file
+```
+gunzip XXX.gz
+```
+
+word count : use -c to get number of byte and -l number of line
+```
+wc file
+```
+
+ues to tail to print the last n lines of the file
+
+The grep utility searches any given input files, selecting lines that
+     match one or more patterns.
+
+Mesure the time of a command :grep -i mobile 20190222-dump.csv > mobiles.csv
+```
+time command
+```
+
+```
+X=10
+echo $X : return 10
+```
+
+Commentaire : tte commande commencant par #
+
+get all element starting with the expression
+```
+grep [options] <expression> <fichiers>...
+```
+
+```
+La commande find(1), contrairement à grep, va rechercher un ensemble de fichiers dontles caractéristiques (nom, droits, date de création, ...) correspondent à certains critères. Lecontenu de ces fichiers n'est donc pas examiné.
+```
+
+
+Other useful commands :
+
+```
+kill
+top
+man
+echo
+chmod
+date
+sort
+cut
+uniq
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
